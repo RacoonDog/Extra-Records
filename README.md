@@ -2,4 +2,4 @@
 
 https://www.curseforge.com/minecraft/mc-mods/extra-records-core
 
-¯\_(ツ)_/¯
+¯\\\_(ツ)_/¯
