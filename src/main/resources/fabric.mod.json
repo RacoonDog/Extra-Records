@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "extrarecords-core",
+  "version": "${version}",
+  "name": "Extrarecords Core",
+  "description": "A base for adding music discs with sound coming from various sources.",
+  "authors": ["GGCrosby"],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/extra-records",
+    "issues": "https://www.curseforge.com/minecraft/mc-mods/extra-records/issues"
+  },
+  "contributors": ["AlexTheDolphin0", "C418", "Lena Raine"],
+  "license": "All-Rights-Reserved",
+  "icon": "assets/extrarecords-core/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.racoondog.extrarecordscore.ExtrarecordsCore"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17"
+  },
+  "recommends": {
+    "modmenu": "*"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "extrarecords.alphabandcamp": "https://c418.bandcamp.com/album/minecraft-volume-alpha",
+        "extrarecords.betabandcamp": "https://c418.bandcamp.com/album/minecraft-volume-beta",
+        "extrarecords.netherupdate": "https://open.spotify.com/album/0Q4LP9lkODPwHGCXZJJ3Rz"
+      }
+    }
+  }
+}

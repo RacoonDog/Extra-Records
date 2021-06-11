@@ -1,0 +1,162 @@
+{
+  "key": {
+    "sounds": [
+      "minecraft:music/game/nuance1"
+    ]
+  },
+  "subwooferlullaby": {
+    "sounds": [
+      "minecraft:music/game/hal1"
+    ]
+  },
+  "livingmice": {
+    "sounds": [
+      "minecraft:music/game/hal2"
+    ]
+  },
+  "haggstrom": {
+    "sounds": [
+      "minecraft:music/game/hal3"
+    ]
+  },
+  "minecraft": {
+    "sounds": [
+      "minecraft:music/game/calm1"
+    ]
+  },
+  "oxygene": {
+    "sounds": [
+      "minecraft:music/game/nuance2"
+    ]
+  },
+  "miceonvenus": {
+    "sounds": [
+      "minecraft:music/game/piano3"
+    ]
+  },
+  "dryhands": {
+    "sounds": [
+      "minecraft:music/game/piano1"
+    ]
+  },
+  "wethands": {
+    "sounds": [
+      "minecraft:music/game/piano2"
+    ]
+  },
+  "clark": {
+    "sounds": [
+      "minecraft:music/game/calm2"
+    ]
+  },
+  "sweden": {
+    "sounds": [
+      "minecraft:music/game/calm3"
+    ]
+  },
+  "danny": {
+    "sounds": [
+      "minecraft:music/game/hal4"
+    ]
+  },
+  "deadvoxel": {
+    "sounds": [
+      "minecraft:music/game/nether/nether2"
+    ]
+  },
+  "blindspots": {
+    "sounds": [
+      "minecraft:music/game/creative/creative2"
+    ]
+  },
+  "moogcity2": {
+    "sounds": [
+      "minecraft:music/menu/menu2"
+    ]
+  },
+  "concretehalls": {
+    "sounds": [
+      "minecraft:music/game/nether/nether1"
+    ]
+  },
+  "biomefest": {
+    "sounds": [
+      "minecraft:music/game/creative/creative1"
+    ]
+  },
+  "mutation": {
+    "sounds": [
+      "minecraft:music/menu/menu1"
+    ]
+  },
+  "hauntmuskie": {
+    "sounds": [
+      "minecraft:music/game/creative/creative3"
+    ]
+  },
+  "warmth": {
+    "sounds": [
+      "minecraft:music/game/nether/nether3"
+    ]
+  },
+  "floatingtrees": {
+    "sounds": [
+      "minecraft:music/menu/menu4"
+    ]
+  },
+  "ariamath": {
+    "sounds": [
+      "minecraft:music/game/creative/creative4"
+    ]
+  },
+  "balladofthecats": {
+    "sounds": [
+      "minecraft:music/game/nether/nether4"
+    ]
+  },
+  "taswell": {
+    "sounds": [
+      "minecraft:music/game/creative/creative6"
+    ]
+  },
+  "beginning2": {
+    "sounds": [
+      "minecraft:music/menu/menu3"
+    ]
+  },
+  "dreiton": {
+    "sounds": [
+      "minecraft:music/game/creative/creative5"
+    ]
+  },
+  "rubedo": {
+    "sounds": [
+      "minecraft:music/game/nether/nether_wastes/rubedo"
+    ]
+  },
+  "sobelow": {
+    "sounds": [
+      "minecraft:music/game/nether/soulsand_valley/so_below"
+    ]
+  },
+  "chrysopoeia": {
+    "sounds": [
+      "minecraft:music/game/nether/crimson_forest/chrysopoeia"
+    ]
+  },
+  "shuniji": {
+    "sounds": [
+      "minecraft:music/game/water/shuniji"
+    ]
+  },
+  "dragonfish": {
+    "sounds": [
+      "minecraft:music/game/water/dragon_fish"
+    ]
+  },
+  "axolotl": {
+    "sounds": [
+      "minecraft:music/game/water/axolotl"
+    ]
+  }
+}

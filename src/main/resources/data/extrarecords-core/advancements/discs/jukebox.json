@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:jukebox"
+    },
+    "title": {
+      "translate": "advancements.discs.jukebox.title"
+    },
+    "description": {
+      "translate": "advancements.discs.jukebox.description"
+    },
+    "frame": "task"
+  },
+  "parent": "extrarecords-core:discs/first_disc",
+  "criteria": {
+    "disc": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jukebox"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

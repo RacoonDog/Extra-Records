@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_pigstep"
+    },
+    "title": {
+      "translate": "advancements.discs.pigstep.title"
+    },
+    "description": {
+      "translate": "advancements.discs.pigstep.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "extrarecords-core:discs/jukebox",
+  "criteria": {
+    "pigstep": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_pigstep"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

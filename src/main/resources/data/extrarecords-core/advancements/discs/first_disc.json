@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "extrarecords-core:key"
+    },
+    "title": {
+      "translate": "advancements.discs.root.title"
+    },
+    "description": {
+      "translate": "advancements.discs.root.description"
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/jukebox_side.png"
+  },
+  "criteria": {
+    "disc": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "c:music_discs"
+          }
+        ]
+      }
+    }
+  }
+}
