@@ -1,6 +1,6 @@
 package io.github.racoondog.extrarecordscore;
 
-import io.github.racoondog.extrarecordscore.api.Disc;
+import io.github.racoondog.extrarecordscore.util.Disc;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.Item;
