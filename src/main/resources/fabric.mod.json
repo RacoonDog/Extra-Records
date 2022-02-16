@@ -1,39 +1,35 @@
 {
   "schemaVersion": 1,
-  "id": "extrarecords-core",
+  "id": "extrarecords",
   "version": "${version}",
-  "name": "Extrarecords Core",
-  "description": "A base for adding music discs with sound coming from various sources.",
-  "authors": ["GGCrosby"],
+  "name": "Extra Records",
+  "description": "Adds a plethora of music discs to minecraft.",
+  "authors": [ "Crosby" ],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/extra-records",
-    "issues": "https://www.curseforge.com/minecraft/mc-mods/extra-records/issues"
+    "issues": "https://github.com/RacoonDog/Extra-Records/issues",
+    "sources": "https://github.com/RacoonDog/Extra-Records"
   },
-  "contributors": ["AlexTheDolphin0", "C418", "Lena Raine"],
-  "license": "All-Rights-Reserved",
-  "icon": "assets/extrarecords-core/icon.png",
+  "license": "LGPL-3.0",
+  "icon": "assets/extrarecords/icon.png",
   "environment": "*",
   "entrypoints": {
+    "client": [
+      "io.github.racoondog.extrarecords.ExtraRecordsClient"
+    ],
     "main": [
-      "io.github.racoondog.extrarecordscore.ExtrarecordsCore"
+      "io.github.racoondog.extrarecords.ExtraRecords"
+    ],
+    "modmenu": [
+      "io.github.racoondog.extrarecords.config.ModMenuIntegration"
     ]
   },
   "depends": {
-    "fabricloader": ">=0.11.3",
+    "fabricloader": ">=0.12.0",
     "fabric": "*",
-    "minecraft": "1.17.x",
-    "java": ">=16"
-  },
-  "recommends": {
-    "modmenu": "*"
-  },
-  "custom": {
-    "modmenu": {
-      "links": {
-        "extrarecords.alphabandcamp": "https://c418.bandcamp.com/album/minecraft-volume-alpha",
-        "extrarecords.betabandcamp": "https://c418.bandcamp.com/album/minecraft-volume-beta",
-        "extrarecords.netherupdate": "https://open.spotify.com/album/0Q4LP9lkODPwHGCXZJJ3Rz"
-      }
-    }
+    "minecraft": "1.18.x",
+    "java": ">=17",
+    "cloth-config": "*",
+    "advanced_runtime_resource_pack": "*"
   }
 }

@@ -1,0 +1,411 @@
+{
+  "biome_fest": {
+    "sounds": [
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      }
+    ]
+  },
+  "blind_spots": {
+    "sounds": [
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      }
+    ]
+  },
+  "haunt_muskie": {
+    "sounds": [
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      }
+    ]
+  },
+  "aria_math": {
+    "sounds": [
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      }
+    ]
+  },
+  "dreiton": {
+    "sounds": [
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      }
+    ]
+  },
+  "taswell": {
+    "sounds": [
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "end_poem": {
+    "sounds": [
+      {
+        "name": "music/game/end/end",
+        "stream": true
+      }
+    ]
+  },
+  "minecraft": {
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      }
+    ]
+  },
+  "clark": {
+    "sounds": [
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      }
+    ]
+  },
+  "sweden": {
+    "sounds": [
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      }
+    ]
+  },
+  "comforting_memories": {
+    "sounds": [
+      {
+        "name": "music/game/comforting_memories",
+        "stream": true
+      }
+    ]
+  },
+  "floating_dream": {
+    "sounds": [
+      {
+        "name": "music/game/floating_dream",
+        "stream": true
+      }
+    ]
+  },
+  "subwoofer_lullaby": {
+    "sounds": [
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      }
+    ]
+  },
+  "living_mice": {
+    "sounds": [
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      }
+    ]
+  },
+  "haggstrom": {
+    "sounds": [
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      }
+    ]
+  },
+  "danny": {
+    "sounds": [
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      }
+    ]
+  },
+  "left_to_bloom": {
+    "sounds": [
+      {
+        "name": "music/game/left_to_bloom",
+        "stream": true
+      }
+    ]
+  },
+  "key": {
+    "sounds": [
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      }
+    ]
+  },
+  "oxygene": {
+    "sounds": [
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      }
+    ]
+  },
+  "one_more_day": {
+    "sounds": [
+      {
+        "name": "music/game/one_more_day",
+        "stream": true
+      }
+    ]
+  },
+  "dry_hands": {
+    "sounds": [
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      }
+    ]
+  },
+  "wet_hands": {
+    "sounds": [
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      }
+    ]
+  },
+  "mice_on_venus": {
+    "sounds": [
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      }
+    ]
+  },
+  "an_ordinary_day": {
+    "sounds": [
+      {
+        "name": "music/game/an_ordinary_day",
+        "stream": true
+      }
+    ]
+  },
+  "infinite_amethyst": {
+    "sounds": [
+      {
+        "name": "music/game/infinite_amethyst",
+        "stream": true
+      }
+    ]
+  },
+  "stand_tall": {
+    "sounds": [
+      {
+        "name": "music/game/stand_tall",
+        "stream": true
+      }
+    ]
+  },
+  "wending": {
+    "sounds": [
+      {
+        "name": "music/game/wending",
+        "stream": true
+      }
+    ]
+  },
+  "mutation": {
+    "sounds": [
+      {
+        "name": "music/menu/menu1",
+        "stream": true
+      }
+    ]
+  },
+  "moog_city_2": {
+    "sounds": [
+      {
+        "name": "music/menu/menu2",
+        "stream": true
+      }
+    ]
+  },
+  "beginning_2": {
+    "sounds": [
+      {
+        "name": "music/menu/menu3",
+        "stream": true
+      }
+    ]
+  },
+  "floating_trees": {
+    "sounds": [
+      {
+        "name": "music/menu/menu4",
+        "stream": true
+      }
+    ]
+  },
+  "concrete_halls": {
+    "sounds": [
+      {
+        "name": "music/game/nether/nether1",
+        "stream": true
+      }
+    ]
+  },
+  "dead_voxel": {
+    "sounds": [
+      {
+        "name": "music/game/nether/nether2",
+        "stream": true
+      }
+    ]
+  },
+  "warmth": {
+    "sounds": [
+      {
+        "name": "music/game/nether/nether3",
+        "stream": true
+      }
+    ]
+  },
+  "ballad_of_the_cats": {
+    "sounds": [
+      {
+        "name": "music/game/nether/nether4",
+        "stream": true
+      }
+    ]
+  },
+  "rubedo": {
+    "sounds": [
+      {
+        "name": "music/game/nether/nether_wastes/rubedo",
+        "stream": true
+      }
+    ]
+  },
+  "chrysopoeia": {
+    "sounds": [
+      {
+        "name": "music/game/nether/crimson_forest/chrysopoeia",
+        "stream": true
+      }
+    ]
+  },
+  "so_below": {
+    "sounds": [
+      {
+        "name": "music/game/nether/soulsand_valley/so_below",
+        "stream": true
+      }
+    ]
+  },
+  "axolotl": {
+    "sounds": [
+      {
+        "name": "music/game/water/axolotl",
+        "stream": true
+      }
+    ]
+  },
+  "dragon_fish": {
+    "sounds": [
+      {
+        "name": "music/game/water/dragon_fish",
+        "stream": true
+      }
+    ]
+  },
+  "shuniji": {
+    "sounds": [
+      {
+        "name": "music/game/water/shuniji",
+        "stream": true
+      }
+    ]
+  },
+
+  "apropos": {
+    "sounds": [
+      {
+        "name": "extrarecords:helltaker/apropos",
+        "stream": true
+      }
+    ]
+  },
+  "epitomize": {
+    "sounds": [
+      {
+        "name": "extrarecords:helltaker/epitomize",
+        "stream": true
+      }
+    ]
+  },
+  "luminescent": {
+    "sounds": [
+      {
+        "name": "extrarecords:helltaker/luminescent",
+        "stream": true
+      }
+    ]
+  },
+  "vitality": {
+    "sounds": [
+      {
+        "name": "extrarecords:helltaker/vitality",
+        "stream": true
+      }
+    ]
+  },
+  "vitality_vip_edit": {
+    "sounds": [
+      {
+        "name": "extrarecords:helltaker/vitality_vip_edit",
+        "stream": true
+      }
+    ]
+  },
+  "alchemy": {
+    "sounds": [
+      {
+        "name": "extrarecords:helltaker/alchemy",
+        "stream": true
+      }
+    ]
+  },
+  "brimstone": {
+    "sounds": [
+      {
+        "name": "extrarecords:helltaker/brimstone",
+        "stream": true
+      }
+    ]
+  },
+  "epitomize_sinners_vip_edit": {
+    "sounds": [
+      {
+        "name": "extrarecords:helltaker/epitomize_sinners_vip_edit",
+        "stream": true
+      }
+    ]
+  },
+  "epitomize_vip_edit": {
+    "sounds": [
+      {
+        "name": "extrarecords:helltaker/epitomize_vip_edit",
+        "stream": true
+      }
+    ]
+  },
+  "titanium": {
+    "sounds": [
+      {
+        "name": "extrarecords:helltaker/titanium",
+        "stream": true
+      }
+    ]
+  }
+}

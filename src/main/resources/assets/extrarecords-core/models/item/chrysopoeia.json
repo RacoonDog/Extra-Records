@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "extrarecords-core:item/nether_update_disc"
-  }
-}
