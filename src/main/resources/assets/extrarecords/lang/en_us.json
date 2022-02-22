@@ -1,8 +1,28 @@
 {
   "text.autoconfig.extrarecords.title": "Extra Records Config",
+  "text.autoconfig.extrarecords.option.vanillaDrops": "Vanilla Drops",
+  "text.autoconfig.extrarecords.option.vanillaDrops.@PrefixText": "Vanilla Drops: No means discs drop from a plethora of different ways. Yes means discs drop from skeletons killing creepers.",
   "text.autoconfig.extrarecords.option.minecraftOST": "Minecraft OST",
   "text.autoconfig.extrarecords.option.helltakerOST": "Helltaker OST",
+  "text.autoconfig.extrarecords.option.ddlcOST": "Doki Doki Literature Club! OST",
   "itemGroup.extrarecords.item_group": "Extra Records",
+
+  "advancements.discs.root.title": "Music Discs",
+  "advancements.discs.root.description": "Pick up any music disc.",
+  "advancements.discs.jukebox.title": "Jukebox",
+  "advancements.discs.jukebox.description": "Craft a jukebox.",
+  "advancements.discs.pigstep.title": "Pigstep",
+  "advancements.discs.pigstep.description": "Obtain Pigstep from the depths of hell.",
+  "advancements.discs.otherside.title": "Otherside",
+  "advancements.discs.otherside.description": "Obtain Otherside from the depths of the overworld.",
+  "advancements.discs.vanilla.title": "Vanilla Completion",
+  "advancements.discs.vanilla.description": "Collect all of the music discs in the base game.",
+  "advancements.discs.minecraft.title": "Minecraft OST",
+  "advancements.discs.minecraft.description": "Collect all music discs in the Minecraft OST.",
+  "advancements.discs.helltaker.title": "Helltaker OST",
+  "advancements.discs.helltaker.description": "Collect all music discs in the Helltaker OST.",
+  "advancements.discs.ddlc.title": "Doki Doki Literature Club! OST",
+  "advancements.discs.ddlc.description": "Collect all music discs in the DDLC OST.",
 
   "item.extrarecords.biome_fest.desc": "C418 - Biome Fest",
   "item.extrarecords.blind_spots.desc": "C418 - Blind Spots",
@@ -57,5 +77,18 @@
   "item.extrarecords.brimstone.desc": "Mittsies - Brimstone",
   "item.extrarecords.epitomize_sinners_vip_edit.desc": "Mittsies - Epitomize (Sinner's VIP Edit)",
   "item.extrarecords.epitomize_vip_edit.desc": "Mittsies - Epitomize (VIP Edit)",
-  "item.extrarecords.titanium.desc": "Mittsies - Titanium"
+  "item.extrarecords.titanium.desc": "Mittsies - Titanium",
+
+  "item.extrarecords.daijoubu.desc": "Dan Salvato - Daijoubu",
+  "item.extrarecords.doki_doki_literature_club.desc": "Dan Salvato - Doki Doki Literature Club!",
+  "item.extrarecords.dreams_of_love_and_literature.desc": "Dan Salvato - Dreams of Love and Literature",
+  "item.extrarecords.i_still_love_you.desc": "Dan Salvato - I Still Love You",
+  "item.extrarecords.my_confession.desc": "Dan Salvato - My Confession",
+  "item.extrarecords.my_feelings.desc": "Dan Salvato - My Feelings",
+  "item.extrarecords.ohayou_sayori.desc": "Dan Salvato - Ohayou Sayori!",
+  "item.extrarecords.okay_everyone.desc": "Dan Salvato - Okay Everyone!",
+  "item.extrarecords.play_with_me.desc": "Dan Salvato - Play With Me",
+  "item.extrarecords.poem_panic.desc": "Dan Salvato - Poem Panic!",
+  "item.extrarecords.sayo-nara.desc": "Dan Salvato - Sayo-nara",
+  "item.extrarecords.your_reality.desc": "Dan Salvato, Jillian Ashcraft - Your Reality"
 }

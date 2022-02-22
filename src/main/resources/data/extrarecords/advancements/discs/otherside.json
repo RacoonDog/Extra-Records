@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_otherside"
+    },
+    "title": {
+      "translate": "advancements.discs.otherside.title"
+    },
+    "description": {
+      "translate": "advancements.discs.otherside.description"
+    },
+    "frame": "challenge"
+  },
+  "parent": "extrarecords:discs/jukebox",
+  "criteria": {
+    "otherside": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:music_disc_otherside"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

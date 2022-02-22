@@ -2,6 +2,7 @@ package io.github.racoondog.extrarecords;
 
 import io.github.racoondog.extrarecords.config.ModConfig;
 import io.github.racoondog.extrarecords.datagen.ARRP;
+import io.github.racoondog.extrarecords.datagen.Advancements;
 import io.github.racoondog.extrarecords.datagen.DiscTexture;
 import io.github.racoondog.extrarecords.datagen.Tags;
 import io.github.racoondog.extrarecords.items.ExtraDiscItem;
@@ -13,7 +14,9 @@ import net.devtech.arrp.api.RuntimeResourcePack;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.loader.api.FabricLoader;
+import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Pair;
 import net.minecraft.util.registry.Registry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -42,13 +45,18 @@ public class ExtraRecords implements ModInitializer {
     public void onInitialize() {
         ModItems.registerItems();
         Tags.registerTags();
+        Advancements.registerAdvancements();
+
+        if (!CONFIG.vanillaDrops) {
+            LootTableEdits.registerLootTableEdits();
+            WanderingTraderOffers.registerOffers();
+        }
 
         if (FabricLoader.getInstance().isDevelopmentEnvironment()) {
-            final ExtraDiscItem testDisc = new ExtraDiscItem(null, new FabricItemSettings());
+            final ExtraDiscItem testDisc = new ExtraDiscItem(null, new FabricItemSettings(), true);
             final Identifier testDiscId = new Identifier(MODID, "test_disc");
             Registry.register(Registry.ITEM, testDiscId, testDisc);
-            ModItems.addedDiscs.add(testDisc);
-            Tags.addDisc(testDiscId);
+            Tags.addDisc(new Pair<>(testDisc, testDiscId));
             ARRP.itemModel(testDiscId, DiscTexture.DDLC);
             RRP.dump();
         }

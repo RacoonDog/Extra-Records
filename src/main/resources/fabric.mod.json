@@ -24,11 +24,14 @@
       "io.github.racoondog.extrarecords.config.ModMenuIntegration"
     ]
   },
+  "mixins": [
+    "extrarecords.mixins.json"
+  ],
   "depends": {
+    "java": ">=17",
     "fabricloader": ">=0.12.0",
     "fabric": "*",
     "minecraft": "1.18.x",
-    "java": ">=17",
     "cloth-config": "*",
     "advanced_runtime_resource_pack": "*"
   }

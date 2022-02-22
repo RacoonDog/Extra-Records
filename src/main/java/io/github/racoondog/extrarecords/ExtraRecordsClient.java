@@ -1,5 +1,6 @@
 package io.github.racoondog.extrarecords;
 
+import io.github.racoondog.extrarecords.datagen.Tags;
 import io.github.racoondog.extrarecords.items.ModItems;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
@@ -15,8 +16,8 @@ public class ExtraRecordsClient implements ClientModInitializer {
             new Identifier(ExtraRecords.MODID, "item_group"))
             .icon(() -> new ItemStack(ModItems.BIOME_FEST))
             .appendItems(stacks -> {
-                for (var item : ModItems.addedDiscs) {
-                    stacks.add(new ItemStack(item));
+                for (var item : Tags.addedDiscs) {
+                    stacks.add(new ItemStack(item.getLeft()));
                 }
             })
             .build();

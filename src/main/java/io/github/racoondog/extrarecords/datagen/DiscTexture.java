@@ -11,7 +11,8 @@ public enum DiscTexture {
     MENU("item/menu_disc"),
     HELLTAKER("item/helltaker_disc"),
     EXAMTAKER("item/examtaker_disc"),
-    DDLC("item/ddlc_disc");
+    DDLC("item/ddlc_disc"),
+    DDLC_BROKEN("item/ddlc_broken_disc");
 
     public final String textureName;
 

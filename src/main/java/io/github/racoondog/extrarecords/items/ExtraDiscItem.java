@@ -7,12 +7,16 @@ import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Rarity;
 
 public class ExtraDiscItem extends MusicDiscItem {
-    public ExtraDiscItem(SoundEvent sound, Settings settings) {
+    public final boolean dropsFromCreeper;
+
+    public ExtraDiscItem(SoundEvent sound, Settings settings, boolean dropsFromCreeper) {
         super(1, sound, settings.maxCount(1).rarity(Rarity.RARE));
+        this.dropsFromCreeper = dropsFromCreeper;
     }
 
-    public ExtraDiscItem(SoundEvent sound, Settings settings, Rarity rarity) {
+    public ExtraDiscItem(SoundEvent sound, Settings settings, Rarity rarity, boolean dropsFromCreeper) {
         super(1, sound, settings.maxCount(1).rarity(rarity));
+        this.dropsFromCreeper = dropsFromCreeper;
     }
 
     @Override

@@ -407,5 +407,102 @@
         "stream": true
       }
     ]
+  },
+
+  "daijoubu": {
+    "sounds": [
+      {
+        "name": "extrarecords:ddlc/daijoubu",
+        "stream": true
+      }
+    ]
+  },
+  "doki_doki_literature_club": {
+    "sounds": [
+      {
+        "name": "extrarecords:ddlc/doki_doki_literature_club",
+        "stream": true
+      }
+    ]
+  },
+  "dreams_of_love_and_literature": {
+    "sounds": [
+      {
+        "name": "extrarecords:ddlc/dreams_of_love_and_literature",
+        "stream": true
+      }
+    ]
+  },
+  "i_still_love_you": {
+    "sounds": [
+      {
+        "name": "extrarecords:ddlc/i_still_love_you",
+        "stream": true
+      }
+    ]
+  },
+  "my_confession": {
+    "sounds": [
+      {
+        "name": "extrarecords:ddlc/my_confession",
+        "stream": true
+      }
+    ]
+  },
+  "my_feelings": {
+    "sounds": [
+      {
+        "name": "extrarecords:ddlc/my_feelings",
+        "stream": true
+      }
+    ]
+  },
+  "ohayou_sayori": {
+    "sounds": [
+      {
+        "name": "extrarecords:ddlc/ohayou_sayori",
+        "stream": true
+      }
+    ]
+  },
+  "okay_everyone": {
+    "sounds": [
+      {
+        "name": "extrarecords:ddlc/okay_everyone",
+        "stream": true
+      }
+    ]
+  },
+  "play_with_me": {
+    "sounds": [
+      {
+        "name": "extrarecords:ddlc/play_with_me",
+        "stream": true
+      }
+    ]
+  },
+  "poem_panic": {
+    "sounds": [
+      {
+        "name": "extrarecords:ddlc/poem_panic",
+        "stream": true
+      }
+    ]
+  },
+  "sayo-nara": {
+    "sounds": [
+      {
+        "name": "extrarecords:ddlc/sayo-nara",
+        "stream": true
+      }
+    ]
+  },
+  "your_reality": {
+    "sounds": [
+      {
+        "name": "extrarecords:ddlc/your_reality",
+        "stream": true
+      }
+    ]
   }
 }
