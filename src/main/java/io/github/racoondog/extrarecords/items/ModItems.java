@@ -1,6 +1,6 @@
 package io.github.racoondog.extrarecords.items;
 
-import io.github.racoondog.extrarecords.Util;
+import io.github.racoondog.extrarecords.util.Util;
 import io.github.racoondog.extrarecords.datagen.ARRP;
 import io.github.racoondog.extrarecords.datagen.DiscTexture;
 import io.github.racoondog.extrarecords.datagen.Tags;
@@ -16,7 +16,7 @@ import java.util.function.Supplier;
 
 import static io.github.racoondog.extrarecords.ExtraRecords.CONFIG;
 
-@SuppressWarnings("ALL")
+@SuppressWarnings({"unused", "SpellCheckingInspection"})
 public class ModItems {
     public static final Item BIOME_FEST = create("biome_fest", () -> CONFIG.minecraftOST, DiscTexture.CREATIVE);
     public static final Item BLIND_SPOTS = create("blind_spots", () -> CONFIG.minecraftOST, DiscTexture.CREATIVE);
@@ -90,50 +90,27 @@ public class ModItems {
     }
 
     private static ExtraDiscItem create(String name, SoundEvent event, Supplier<Boolean> supplier, DiscTexture discTexture) {
-        final Identifier id = Util.id(name);
-        final ExtraDiscItem item = new ExtraDiscItem(event, new FabricItemSettings(), true);
-        Registry.register(Registry.ITEM, id, item);
-        if (supplier.get()) {
-            Tags.addDisc(new Pair<Item, Identifier>(item, id));
-        }
-        ARRP.itemModel(id, discTexture);
-        return item;
+        return create(name, event, supplier, discTexture, () -> true);
     }
 
     private static ExtraDiscItem create(String name, Supplier<Boolean> supplier, DiscTexture discTexture) {
-        final Identifier id = Util.id(name);
-        final SoundEvent event = new SoundEvent(id);
-        Registry.register(Registry.SOUND_EVENT, id, event);
-        final ExtraDiscItem item = new ExtraDiscItem(event, new FabricItemSettings(), true);
-        Registry.register(Registry.ITEM, id, item);
-        if (supplier.get()) {
-            Tags.addDisc(new Pair<Item, Identifier>(item, id));
-        }
-        ARRP.itemModel(id, discTexture);
-        return item;
-    }
-
-    private static ExtraDiscItem create(String name, SoundEvent event, Supplier<Boolean> supplier, DiscTexture discTexture, Supplier<Boolean> dropsFromCreeper) {
-        final Identifier id = Util.id(name);
-        final ExtraDiscItem item = new ExtraDiscItem(event, new FabricItemSettings(), dropsFromCreeper.get());
-        Registry.register(Registry.ITEM, id, item);
-        if (supplier.get()) {
-            Tags.addDisc(new Pair<Item, Identifier>(item, id));
-        }
-        ARRP.itemModel(id, discTexture);
-        return item;
+        return create(name, supplier, discTexture, () -> true);
     }
 
     private static ExtraDiscItem create(String name, Supplier<Boolean> supplier, DiscTexture discTexture, Supplier<Boolean> dropsFromCreeper) {
         final Identifier id = Util.id(name);
-        final SoundEvent event = new SoundEvent(id);
-        Registry.register(Registry.SOUND_EVENT, id, event);
-        final ExtraDiscItem item = new ExtraDiscItem(event, new FabricItemSettings(), dropsFromCreeper.get());
-        Registry.register(Registry.ITEM, id, item);
+        return create(name, new SoundEvent(id), supplier, discTexture, dropsFromCreeper);
+    }
+
+    private static ExtraDiscItem create(String name, SoundEvent event, Supplier<Boolean> supplier, DiscTexture discTexture, Supplier<Boolean> dropsFromCreeper) {
+        final Identifier id = Util.id(name);
         if (supplier.get()) {
-            Tags.addDisc(new Pair<Item, Identifier>(item, id));
+            final ExtraDiscItem item = new ExtraDiscItem(event, new FabricItemSettings(), dropsFromCreeper.get());
+            Registry.register(Registry.ITEM, id, item);
+            Tags.addDisc(new Pair<>(item, id));
+            ARRP.itemModel(id, discTexture);
+            return item;
         }
-        ARRP.itemModel(id, discTexture);
-        return item;
+        return null;
     }
 }

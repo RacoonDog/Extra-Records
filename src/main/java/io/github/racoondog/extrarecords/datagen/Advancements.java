@@ -1,7 +1,7 @@
 package io.github.racoondog.extrarecords.datagen;
 
 import com.google.common.collect.Lists;
-import io.github.racoondog.extrarecords.Util;
+import io.github.racoondog.extrarecords.util.Util;
 import net.minecraft.resource.ResourceType;
 
 import java.nio.charset.StandardCharsets;

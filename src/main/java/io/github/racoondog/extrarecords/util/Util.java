@@ -1,5 +1,6 @@
-package io.github.racoondog.extrarecords;
+package io.github.racoondog.extrarecords.util;
 
+import io.github.racoondog.extrarecords.ExtraRecords;
 import net.minecraft.util.Identifier;
 
 public class Util {

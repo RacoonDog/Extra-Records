@@ -1,7 +1,7 @@
 package io.github.racoondog.extrarecords.datagen;
 
 import io.github.racoondog.extrarecords.ExtraRecords;
-import io.github.racoondog.extrarecords.Util;
+import io.github.racoondog.extrarecords.util.Util;
 import net.devtech.arrp.json.models.JModel;
 import net.minecraft.util.Identifier;
 
