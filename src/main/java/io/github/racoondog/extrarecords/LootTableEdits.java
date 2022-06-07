@@ -1,8 +1,7 @@
 package io.github.racoondog.extrarecords;
 
 import io.github.racoondog.extrarecords.items.ModItems;
-import net.fabricmc.fabric.api.loot.v1.FabricLootPoolBuilder;
-import net.fabricmc.fabric.api.loot.v1.event.LootTableLoadingCallback;
+import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
 import net.minecraft.entity.EntityType;
 import net.minecraft.item.Item;
 import net.minecraft.loot.LootPool;
@@ -33,7 +32,7 @@ public class LootTableEdits {
     private static final Identifier PIGLIN_BARTERING = LootTables.PIGLIN_BARTERING_GAMEPLAY;
 
     public static void registerLootTableEdits() {
-        LootTableLoadingCallback.EVENT.register((resourceManager, lootManager, id, table, setter) -> {
+        LootTableEvents.MODIFY.register((resourceManager, lootManager, id, table, setter) -> {
             if (CONFIG.minecraftOST) {
                 if (ELDER_GUARDIAN_ID.equals(id)) {
                     table.pool(create(ModItems.DRAGON_FISH, 0.112f));
@@ -67,17 +66,17 @@ public class LootTableEdits {
     }
 
     private static LootPool.Builder create(Item item) {
-        return FabricLootPoolBuilder.builder()
+        return LootPool.builder()
                 .rolls(ConstantLootNumberProvider.create(1))
                 .with(ItemEntry.builder(item));
     }
     private static LootPool.Builder create(Item item, float chance) {
-        return FabricLootPoolBuilder.builder()
+        return LootPool.builder()
                 .rolls(ConstantLootNumberProvider.create(1))
-                .with(ItemEntry.builder(item)).withCondition(RandomChanceLootCondition.builder(chance).build());
+                .with(ItemEntry.builder(item)).conditionally(RandomChanceLootCondition.builder(chance).build());
     }
     private static LootPool.Builder create(Item... items) {
-        final LootPool.Builder builder = FabricLootPoolBuilder.builder()
+        final LootPool.Builder builder = LootPool.builder()
                 .rolls(ConstantLootNumberProvider.create(1));
         for (var item : items) {
             builder.with(ItemEntry.builder(item).weight(1));
@@ -85,11 +84,11 @@ public class LootTableEdits {
         return builder;
     }
     private static LootPool.Builder create(float chance, Item... items) {
-        final FabricLootPoolBuilder builder = FabricLootPoolBuilder.builder()
+        final LootPool.Builder builder = LootPool.builder()
                 .rolls(ConstantLootNumberProvider.create(1));
         chance = chance / items.length;
         for (var item : items) {
-            builder.with(ItemEntry.builder(item).weight(1)).withCondition(RandomChanceLootCondition.builder(chance).build());
+            builder.with(ItemEntry.builder(item).weight(1)).conditionally(RandomChanceLootCondition.builder(chance).build());
         }
         return builder;
     }

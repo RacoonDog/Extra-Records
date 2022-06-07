@@ -1,5 +1,6 @@
 package io.github.racoondog.extrarecords.items;
 
+import io.github.racoondog.extrarecords.ExtraRecords;
 import io.github.racoondog.extrarecords.util.Util;
 import io.github.racoondog.extrarecords.datagen.ARRP;
 import io.github.racoondog.extrarecords.datagen.DiscTexture;
@@ -105,7 +106,7 @@ public class ModItems {
     private static ExtraDiscItem create(String name, SoundEvent event, Supplier<Boolean> supplier, DiscTexture discTexture, Supplier<Boolean> dropsFromCreeper) {
         final Identifier id = Util.id(name);
         if (supplier.get()) {
-            final ExtraDiscItem item = new ExtraDiscItem(event, new FabricItemSettings(), dropsFromCreeper.get());
+            final ExtraDiscItem item = new ExtraDiscItem(event, new FabricItemSettings().group(ExtraRecords.EXTRARECORDS_ITEM_GROUP), dropsFromCreeper.get());
             Registry.register(Registry.ITEM, id, item);
             Tags.addDisc(new Pair<>(item, id));
             ARRP.itemModel(id, discTexture);

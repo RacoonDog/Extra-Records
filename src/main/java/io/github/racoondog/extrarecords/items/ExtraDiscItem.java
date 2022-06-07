@@ -3,7 +3,7 @@ package io.github.racoondog.extrarecords.items;
 import net.minecraft.item.MusicDiscItem;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.text.MutableText;
-import net.minecraft.text.TranslatableText;
+import net.minecraft.text.Text;
 import net.minecraft.util.Rarity;
 
 public class ExtraDiscItem extends MusicDiscItem {
@@ -26,6 +26,6 @@ public class ExtraDiscItem extends MusicDiscItem {
 
     @Override
     public MutableText getDescription() {
-        return new TranslatableText(this.getOrCreateTranslationKey() + ".desc");
+        return Text.translatable(this.getOrCreateTranslationKey() + ".desc");
     }
 }
