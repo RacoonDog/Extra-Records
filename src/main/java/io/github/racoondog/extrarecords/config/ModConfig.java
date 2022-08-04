@@ -12,5 +12,6 @@ public class ModConfig implements ConfigData {
 
     public boolean minecraftOST = true;
     public boolean helltakerOST = true;
+    public boolean helltakerRemixes = true;
     public boolean ddlcOST = true;
 }

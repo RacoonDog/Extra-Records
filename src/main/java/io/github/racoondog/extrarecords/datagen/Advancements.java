@@ -8,8 +8,8 @@ import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.Locale;
 
-import static io.github.racoondog.extrarecords.ExtraRecords.RRP;
 import static io.github.racoondog.extrarecords.ExtraRecords.CONFIG;
+import static io.github.racoondog.extrarecords.ExtraRecords.RRP;
 
 public class Advancements {
     public static void registerAdvancements() {

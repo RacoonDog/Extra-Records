@@ -28,8 +28,6 @@ public class ExtraRecords implements ModInitializer {
     public static final String MODID = "extrarecords";
     public static final Logger LOGGER = LogUtils.getLogger();
     public static final ModConfig CONFIG;
-    public static final RuntimeResourcePack RRP = RuntimeResourcePack.create(MODID);
-    public static final ItemGroup EXTRARECORDS_ITEM_GROUP = FabricItemGroupBuilder.build(Util.id("item_group"), () -> new ItemStack(ModItems.BIOME_FEST));
 
     static {
         AutoConfig.register(ModConfig.class, JanksonConfigSerializer::new);
@@ -45,9 +43,11 @@ public class ExtraRecords implements ModInitializer {
         LOGGER.info(sb.toString());
     }
 
+    public static final RuntimeResourcePack RRP = RuntimeResourcePack.create(MODID);
+    public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(Util.id("item_group"), () -> new ItemStack(ModItems.BIOME_FEST));
+
     @Override
     public void onInitialize() {
-        ModItems.registerItems();
         Tags.registerTags();
         Advancements.registerAdvancements();
 
@@ -57,7 +57,7 @@ public class ExtraRecords implements ModInitializer {
         }
 
         if (FabricLoader.getInstance().isDevelopmentEnvironment()) {
-            final ExtraDiscItem testDisc = new ExtraDiscItem(null, new FabricItemSettings(), true);
+            final ExtraDiscItem testDisc = new ExtraDiscItem(null, new FabricItemSettings(), true, 1);
             final Identifier testDiscId = Util.id("test_disc");
             Registry.register(Registry.ITEM, testDiscId, testDisc);
             Tags.addDisc(new Pair<>(testDisc, testDiscId));

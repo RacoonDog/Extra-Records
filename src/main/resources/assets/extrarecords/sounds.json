@@ -215,6 +215,38 @@
       }
     ]
   },
+  "ancestry": {
+    "sounds": [
+      {
+        "name": "music/game/ancestry",
+        "stream": true
+      }
+    ]
+  },
+  "aerie": {
+    "sounds": [
+      {
+        "name": "music/game/swamp/aerie",
+        "stream": true
+      }
+    ]
+  },
+  "firebugs": {
+    "sounds": [
+      {
+        "name": "music/game/swamp/firebugs",
+        "stream": true
+      }
+    ]
+  },
+  "labyrinthine": {
+    "sounds": [
+      {
+        "name": "music/game/swamp/labyrinthine",
+        "stream": true
+      }
+    ]
+  },
   "mutation": {
     "sounds": [
       {
