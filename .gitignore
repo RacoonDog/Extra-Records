@@ -1,5 +1,6 @@
 # Don't put music on github
 /src/main/resources/assets/extrarecords/sounds/
+/original-audio/
 
 # User-specific stuff
 .idea/

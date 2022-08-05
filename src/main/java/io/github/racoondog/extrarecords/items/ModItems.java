@@ -72,7 +72,7 @@ public class ModItems {
 
     // Helltaker OST
     public static final Item APROPOS = create("apropos", () -> CONFIG.helltakerOST, DiscTexture.HELLTAKER, 326);
-    public static final Item EPITOMIZE = create("epitomize", () -> CONFIG.helltakerOST, DiscTexture.HELLTAKER, 788);
+    public static final Item EPITOMIZE = create("epitomize", () -> CONFIG.helltakerOST, DiscTexture.HELLTAKER, 260);
     public static final Item LUMINESCENT = create("luminescent", () -> CONFIG.helltakerOST, DiscTexture.HELLTAKER, 253);
     public static final Item VITALITY = create("vitality", () -> CONFIG.helltakerOST, DiscTexture.HELLTAKER, 226);
     public static final Item BRIMSTONE = create("brimstone", () -> CONFIG.helltakerOST, DiscTexture.HELLTAKER, 240);

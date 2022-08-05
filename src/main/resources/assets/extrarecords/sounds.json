@@ -363,7 +363,7 @@
   "apropos": {
     "sounds": [
       {
-        "name": "extrarecords:helltaker/apropos",
+        "name": "extrarecords:helltaker/apropos.bz2",
         "stream": true
       }
     ]
@@ -371,7 +371,7 @@
   "epitomize": {
     "sounds": [
       {
-        "name": "extrarecords:helltaker/epitomize",
+        "name": "extrarecords:helltaker/epitomize.bz2",
         "stream": true
       }
     ]
@@ -379,7 +379,7 @@
   "luminescent": {
     "sounds": [
       {
-        "name": "extrarecords:helltaker/luminescent",
+        "name": "extrarecords:helltaker/luminescent.bz2",
         "stream": true
       }
     ]
@@ -387,7 +387,7 @@
   "vitality": {
     "sounds": [
       {
-        "name": "extrarecords:helltaker/vitality",
+        "name": "extrarecords:helltaker/vitality.bz2",
         "stream": true
       }
     ]
@@ -395,7 +395,7 @@
   "vitality_vip_edit": {
     "sounds": [
       {
-        "name": "extrarecords:helltaker/vitality_vip_edit",
+        "name": "extrarecords:helltaker/vitality_vip_edit.bz2",
         "stream": true
       }
     ]
@@ -403,7 +403,7 @@
   "alchemy": {
     "sounds": [
       {
-        "name": "extrarecords:helltaker/alchemy",
+        "name": "extrarecords:helltaker/alchemy.bz2",
         "stream": true
       }
     ]
@@ -411,7 +411,7 @@
   "brimstone": {
     "sounds": [
       {
-        "name": "extrarecords:helltaker/brimstone",
+        "name": "extrarecords:helltaker/brimstone.bz2",
         "stream": true
       }
     ]
@@ -419,7 +419,7 @@
   "epitomize_sinners_vip_edit": {
     "sounds": [
       {
-        "name": "extrarecords:helltaker/epitomize_sinners_vip_edit",
+        "name": "extrarecords:helltaker/epitomize_sinners_vip_edit.bz2",
         "stream": true
       }
     ]
@@ -427,7 +427,7 @@
   "epitomize_vip_edit": {
     "sounds": [
       {
-        "name": "extrarecords:helltaker/epitomize_vip_edit",
+        "name": "extrarecords:helltaker/epitomize_vip_edit.bz2",
         "stream": true
       }
     ]
@@ -435,7 +435,7 @@
   "titanium": {
     "sounds": [
       {
-        "name": "extrarecords:helltaker/titanium",
+        "name": "extrarecords:helltaker/titanium.bz2",
         "stream": true
       }
     ]
@@ -444,7 +444,7 @@
   "daijoubu": {
     "sounds": [
       {
-        "name": "extrarecords:ddlc/daijoubu",
+        "name": "extrarecords:ddlc/daijoubu.bz2",
         "stream": true
       }
     ]
@@ -452,7 +452,7 @@
   "doki_doki_literature_club": {
     "sounds": [
       {
-        "name": "extrarecords:ddlc/doki_doki_literature_club",
+        "name": "extrarecords:ddlc/doki_doki_literature_club.bz2",
         "stream": true
       }
     ]
@@ -460,7 +460,7 @@
   "dreams_of_love_and_literature": {
     "sounds": [
       {
-        "name": "extrarecords:ddlc/dreams_of_love_and_literature",
+        "name": "extrarecords:ddlc/dreams_of_love_and_literature.bz2",
         "stream": true
       }
     ]
@@ -468,7 +468,7 @@
   "i_still_love_you": {
     "sounds": [
       {
-        "name": "extrarecords:ddlc/i_still_love_you",
+        "name": "extrarecords:ddlc/i_still_love_you.bz2",
         "stream": true
       }
     ]
@@ -476,7 +476,7 @@
   "my_confession": {
     "sounds": [
       {
-        "name": "extrarecords:ddlc/my_confession",
+        "name": "extrarecords:ddlc/my_confession.bz2",
         "stream": true
       }
     ]
@@ -484,7 +484,7 @@
   "my_feelings": {
     "sounds": [
       {
-        "name": "extrarecords:ddlc/my_feelings",
+        "name": "extrarecords:ddlc/my_feelings.bz2",
         "stream": true
       }
     ]
@@ -492,7 +492,7 @@
   "ohayou_sayori": {
     "sounds": [
       {
-        "name": "extrarecords:ddlc/ohayou_sayori",
+        "name": "extrarecords:ddlc/ohayou_sayori.bz2",
         "stream": true
       }
     ]
@@ -500,7 +500,7 @@
   "okay_everyone": {
     "sounds": [
       {
-        "name": "extrarecords:ddlc/okay_everyone",
+        "name": "extrarecords:ddlc/okay_everyone.bz2",
         "stream": true
       }
     ]
@@ -508,7 +508,7 @@
   "play_with_me": {
     "sounds": [
       {
-        "name": "extrarecords:ddlc/play_with_me",
+        "name": "extrarecords:ddlc/play_with_me.bz2",
         "stream": true
       }
     ]
@@ -516,7 +516,7 @@
   "poem_panic": {
     "sounds": [
       {
-        "name": "extrarecords:ddlc/poem_panic",
+        "name": "extrarecords:ddlc/poem_panic.bz2",
         "stream": true
       }
     ]
@@ -524,7 +524,7 @@
   "sayo-nara": {
     "sounds": [
       {
-        "name": "extrarecords:ddlc/sayo-nara",
+        "name": "extrarecords:ddlc/sayo-nara.bz2",
         "stream": true
       }
     ]
@@ -532,7 +532,7 @@
   "your_reality": {
     "sounds": [
       {
-        "name": "extrarecords:ddlc/your_reality",
+        "name": "extrarecords:ddlc/your_reality.bz2",
         "stream": true
       }
     ]

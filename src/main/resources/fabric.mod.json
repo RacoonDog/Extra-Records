@@ -21,6 +21,9 @@
       "io.github.racoondog.extrarecords.config.ModMenuIntegration"
     ]
   },
+  "mixins": [
+    "extrarecords.mixins.json"
+  ],
   "depends": {
     "java": ">=17",
     "fabricloader": ">=0.14.0",
